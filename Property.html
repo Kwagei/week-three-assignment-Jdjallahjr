@@ -6,7 +6,7 @@
     <title>Mockup Properties-Grid</title>
     <link rel="stylesheet" href="Index.css">
 </head>
-<body>
+<body style="background-color: rgb(219, 214, 214);">
     <div class="Properties-container">
 
         <nav class="nav-container">
@@ -16,7 +16,7 @@
             <div class="nav-bar-wrapper">
                 <div class="nav-bar">
                     <div class="first-nav-items">
-                        <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Index.html">Home</a>        <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Properties-Grid.html">Our Properties</a>                    <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Properties-List.html">Our Properties List</a>
+                        <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Index.html">Home</a>        <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/2Properties.html">Our Properties</a>                    <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Properties-List.html">Our Properties List</a>
                         <hr>
                         <a style="color: rgb(71, 68, 68);" href="#"> HOME </a> &gt <a style="color: rgb(71, 68, 68);" href="#"> HOUSES </a>&nbsp; &nbsp; <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Property.html"> CATEGORY </a>
                     </div>
@@ -29,105 +29,119 @@
             </div>
         </nav>
 
-            <!-- <nav class="nav0">
-                <div class="nav1">
-                    <a href="#">All</a>
-                </div>
+
+            <div class="new">
+                <aside>
+                    <label style="color: rgb(53, 51, 51);">Search</label><br><br>
+                            <input type="text" placeholder="Search"><select id="codes"></select><br><br>
+                        
+                            <label style="color: rgb(53, 51, 51);">Category</label><br>
+                            <input  type="text" placeholder="Most Recent"><select id="codes"></select><br><br>
     
-                <div class="nav2">
-                    <a href="#">Rent</a>
-                </div>
+                            <label style="color: rgb(53, 51, 51);">Location</lable><br>
+                                <input  type="text" placeholder="Most Recent"><select id="codes"></select><br><br>
     
-                <div class="nav3">
-                    <a href="#">Sale</a>
-                </div>   
-            </nav> -->
+                                <label style="color: rgb(53, 51, 51);">Bedrooms</label><br>
+                                <input  type="text" placeholder="Most Recent"><select id="codes"></select><br><br>
+    
+                                <label style="color: rgb(53, 51, 51);">Bathrooms</label><br>
+                                <input  type="text" placeholder="Most Recent"><select id="codes"></select><br><br>
+                                
+                                <button>Done</button>
+                </aside>
 
-            <div class="Property-container">
-                    <div>
-                        <aside style="color: rgb(53, 51, 51);">Search</aside><br>
-                        <input  type="text" placeholder="Search">
-                        <select id="My-selection">
-                            <option value="1">
-                                <a href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Login.html">Category</a>
-                            </option>
-                        </select>
-                    </div><br>
-                    <div>    
-                        <aside style="color: rgb(53, 51, 51);">Category</aside>
-                        <input  type="text" placeholder="Most Recent">
-                    </div><br>
-                    <div>
-                        <aside style="color: rgb(53, 51, 51);">Location</aside>
-                        <input  type="text" placeholder="Most Recent">
-                    </div><br>
-                    <div>
-                        <aside style="color: rgb(53, 51, 51);">Bedrooms</aside>
-                        <input  type="text" placeholder="Most Recent">
-                    </div><br>
-                    <div>
-                        <aside style="color: rgb(53, 51, 51);">Bathrooms</aside>
-                        <input  type="text" placeholder="Most Recent">
-                    </div><br>
-
-                    <div class="sidebar-button">
-                        <button>Done</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="Property-container1">
+            <!-- <div class="Property-container1">
                 <aside style="color: rgb(53, 51, 51);">Advertisment</aside>
-            </div>
+            </div> -->
+            <div class="property-wrapper">
+                <div class="property-new1">
+                    <div class="propergty-content">
+                        <div class="property-image">
+                            <p class="property-price1"><small><sup>$</sup>500.00/month</small></p>
+                            <div class="class-of-content-property">
+                                <p>3 bedroom HOUSE <br>
+                                    <small>Sinkor, Monrovia, Liberia</small>
+                                </p>
+                                
+                                <button style="width: 80px;">2</button>
+                                <button style="width: 80px;">1</button>
+                                <button style="width: 80px;">3</button>
+                                <button style="width: 80px;">2</button><br><br>
 
-            <div class="container-wrapper">
-                <div class="container-property">
-                    <div class="container-item">
-                        <!-- <div class="img-backgroung" style="background-image: url(img-2.jpg);"></div> -->
-                        <div class="text-wrapper">
-                            <div class="wrapper">
-                                <img src="../week-three-assignment-Jdjallahjr/Images/Home2Bdesign2BIndia2Bsmall2Bsize.jpg" alt="">
+                                <small>James Jallah</small><br>
+                                <br>
+                                <button class="property-button1" style="width: 30%;">Give James a Call</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <button class="property-button2" style="width: 30%;">Send James an Email</button>
                             </div>
-                            <div class="subtitle">Lorem ipsum</div>
+                            <div class="property-description">
+                                <h4>PROPERTY DESCRIPTION</h4>
+                                <P style="color: gray;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita reprehenderit ea, consectetur, aperiam beatae tenetur a impedit eligendi ipsa quod cupiditate odio fuga, nesciunt totam. Fuga possimus pariatur tempore omnis?</P>
+                            </div>
+                            <div class="available-amenities">
+                                <h4>AVAILABLE AMENITIES</h4>
+                            </div>
+                            <nav class="property-nav2">
+                                <div>
+                                    <p style="color: gray;">Garage</p>
+                                    <p style="color: gray;">Swimming pool</p>
+                                    <p style="color: gray;">Laundry room</p>
+                                    <p style="color: gray;">Advertismments</p>
+                                    <p style="color: gray;">Garden</p>
+                                    <p style="color: gray;">Generator</p>
+                                </div>
+                                <div>
+                                    <p style="color: gray;">Garage</p>
+                                    <p style="color: gray;">Swimming pool</p>
+                                    <p style="color: gray;">Laundry room</p>
+                                    <p style="color: gray;">Advertismments</p>
+                                    <p style="color: gray;">Garden</p>
+                                    <p style="color: gray;">Generator</p>
+                                </div>
+                                <div>
+                                    <p style="color: gray;">Garage</p>
+                                    <p style="color: gray;">Swimming pool</p>
+                                    <p style="color: gray;">Laundry room</p>
+                                    <p style="color: gray;">Advertismments</p>
+                                    <p style="color: gray;">Garden</p>
+                                    <p style="color: gray;">Generator</p>
+                                </div>
+                            </nav>
                         </div>
+                        <div class="property-image2"></div>
                     </div>
                 </div>
-                <div class="container-button">
-                    <button>Read More</button>
+                <div class="property-advert">
+                    <h4>Advertisments</h4>
                 </div>
-            </div>
-            
-            <div class="footer">
-                <nav class="footer-nav">
-                    <div class="footer-nav1">
-                        <h4>CONTACT US</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, <br> consectetur <br>
-                             adipisicing elit. <br> Provident <br>, consequuntur culpa. <br>
-                              Odit vitae veniam <br> 
-                        </p>
-                    </div>
-        
-                    <div class="footer-nav2">
-                        <h4>QUICK LINKS</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, <br> consectetur <br>
-                             adipisicing elit. <br> Provident <br>, consequuntur culpa. <br>
-                              Odit vitae veniam <br> 
-                        </p>
-                    </div>
-        
-                    <div class="footer-nav3">
-                        <h4>OUR RECENT POSTINGS</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, <br> consectetur <br>
-                             adipisicing elit. <br> Provident <br>, consequuntur culpa. <br>
-                              Odit vitae veniam <br> 
-                        </p>
-                    </div>   
-                </nav>
-            </div>
-            
+
+                    <nav class="property-nav">
+
+                        <div class="property-footer-conten1">
+                            <h4>CONTACT US</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, <br> consectetur <br>
+                                adipisicing elit. <br> Provident <br>, consequuntur culpa. <br>
+                                Odit vitae veniam <br> 
+                            </p>
+                        </div>   
+                        <div class="property-footer-conten2">
+                            <h4>QUICK LINKS</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, <br> consectetur <br>
+                                adipisicing elit. <br> Provident <br>, consequuntur culpa. <br>
+                                Odit vitae veniam <br> 
+                            </p>
+                        </div>   
+                        <div class="property-footer-conten3">
+                            <h4>OUR RECENT POSTINGS</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, <br> consectetur <br>
+                                adipisicing elit. <br> Provident <br>, consequuntur culpa. <br>
+                                Odit vitae veniam <br> 
+                            </p>
+                        </div>
+                    </nav>
+                
     </div>
 </body>
 </html>    
