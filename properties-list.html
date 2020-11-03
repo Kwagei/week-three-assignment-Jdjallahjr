@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mockup Properties-Grid</title>
-    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: rgb(219, 214, 214);">
+<body style="background-color: rgb(243, 241, 241);">
     <main>
         <div class="Properties-container">
-
+            <div class="brand" id="brand">
+                <a href="index.html"><b>SILKROAD</b></a>
+            </div>
             <nav class="nav-container">
-                <div class="brand" id="brand">
-                    <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Index.html"">SILKROAD</a>
-                </div>
-                <div class="nav-bar-wrapper">
-                    <div class="nav-bar">
-                        <div class="first-nav-items">
-                            <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Index.html">Home</a>        <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/2Properties.html">Our Properties</a>                    <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Properties-List.html">Our Properties List</a>
-                            <hr>
-                            <a style="color: rgb(71, 68, 68);" href="#"> HOME </a> &gt <a style="color: rgb(71, 68, 68);" href="#"> HOUSES </a>&nbsp; &nbsp; <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Property.html"> CATEGORY </a>
-                        </div>
-    
-                        <div class="second-nav-items">
-                            <a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Index.html">Login</a>|<a style="color: white;" href="/home/jamesdjallahjr/Programming/KIT 2020/Week-three/Week three assignment/week-three-assignment-Jdjallahjr/Registration.html">Register</a><hr>
-                            <button class="blue-button">Post a Property</button>
-                        </div>
+                <div class="top-nav">
+                    <div class="nav-top-left">
+                        <a href="index.html">Home</a>
+                        <a href="properties-grid.html">Our Properties</a>
+                    </div>
+                    <div class="nav-top-right">
+                        <a href="index.html">Login</a>
+                        <a href="#">|</a>
+                        <a href="registration.html">Register</a>
                     </div>
                 </div>
+                <hr>
+                <div class="buttom-nav">
+                    <div class="buttom-nav-left">
+                        <a href="#">Home</a>
+                        <a href="#">&gt</a>
+                        <a href="#">Login</a>
+                    </div>
+                    
+                </div>
+                
             </nav> 
+            <div class="buttom-nav-right">
+                <button><a href="property.html"><b>Post a Property</b></a></button>
+            </div>
         </div>
         <div class="new">
             <aside>
@@ -45,9 +54,12 @@
                             <input  type="text" placeholder="Most Recent"><select id="codes"></select><br><br>
 
                             <label style="color: rgb(53, 51, 51);">Bathrooms</label><br>
-                            <input  type="text" placeholder="Most Recent"><select id="codes"></select><br><br>
+                            <input  type="text" placeholder="Most Recent"><select id="codes"></select><br>
+
+                            <p><small>Price: $00.00 - $10,000.00</small></p>
+                            <input type="range" id="slider">
                             
-                            <button>Done</button>
+                            <button class="done-button">Done</button>
             </aside>
         
             
@@ -67,153 +79,153 @@
                         
                 </header>
                 <div class="new1">
-                    <div class="content">
+                    <div class="list-content">
                         <div class="content-item">
-                            <div class="image"></div>
-                            <p class="price1">500.00</p>
-                            <div class="class-of-content">
-                                <p>3 bedroom HOUSE
+                            <div class="list-image"></div>
+                            <p class="list-price1"><small><sup>$</sup>500.00/month</small></p>
+                            <div class="class-of-content-list">
+                                <p>3 bedroom HOUSE <br>
                                     <small>Sinkor, Monrovia, Liberia</small>
                                 </p>
                                 <small>James Jallah</small><br>
                                 
-                                <button>2</button>
-                                <button>1</button>
-                                <button>3</button>
-                                <button>2</button>
+                                <button style="width: 80px;">2</button>
+                                <button style="width: 80px;">1</button>
+                                <button style="width: 80px;">3</button>
+                                <button style="width: 80px;">2</button>
                             </div>
                             
                         </div>
                         <div class="content-item">
-                            <div class="image"></div>
-                            <p class="price1">500.00</p>
-                            <div class="class-of-content">
-                                <p>3 bedroom HOUSE
+                            <div class="list-image"></div>
+                            <p class="list-price1"><small><sup>$</sup>500.00/month</small></p>
+                            <div class="class-of-content-list">
+                                <p>3 bedroom HOUSE <br>
                                     <small>Sinkor, Monrovia, Liberia</small>
                                 </p>
                                 <small>James Jallah</small><br>
                                 
-                                <button>2</button>
-                                <button>1</button>
-                                <button>3</button>
-                                <button>2</button>
+                                <button style="width: 80px;">2</button>
+                                <button style="width: 80px;">1</button>
+                                <button style="width: 80px;">3</button>
+                                <button style="width: 80px;">2</button>
                             </div>
                             
                         </div>
                         <div class="content-item">
-                            <div class="image"></div>
-                            <p class="price1">500.00</p>
-                            <div class="class-of-content">
-                                <p>3 bedroom HOUSE
+                            <div class="list-image"></div>
+                            <p class="list-price1"><small><sup>$</sup>500.00/month</small></p>
+                            <div class="class-of-content-list">
+                                <p>3 bedroom HOUSE <br>
                                     <small>Sinkor, Monrovia, Liberia</small>
                                 </p>
                                 <small>James Jallah</small><br>
                                 
-                                <button>2</button>
-                                <button>1</button>
-                                <button>3</button>
-                                <button>2</button>
+                                <button style="width: 80px;">2</button>
+                                <button style="width: 80px;">1</button>
+                                <button style="width: 80px;">3</button>
+                                <button style="width: 80px;">2</button>
                             </div>
                             
                         </div>
                         <div class="content-item">
-                            <div class="image"></div>
-                            <p class="price1">500.00</p>
-                            <div class="class-of-content">
-                                <p>3 bedroom HOUSE
+                            <div class="list-image"></div>
+                            <p class="list-price1"><small><sup>$</sup>500.00/month</small></p>
+                            <div class="class-of-content-list">
+                                <p>3 bedroom HOUSE <br>
                                     <small>Sinkor, Monrovia, Liberia</small>
                                 </p>
                                 <small>James Jallah</small><br>
                                 
-                                <button>2</button>
-                                <button>1</button>
-                                <button>3</button>
-                                <button>2</button>
-                            </div>
-                            
-                        </div>
-                        
-                        <div class="content-item">
-                            <div class="image"></div>
-                            <p class="price1">500.00</p>
-                            <div class="class-of-content">
-                                <p>3 bedroom HOUSE
-                                    <small>Sinkor, Monrovia, Liberia</small>
-                                </p>
-                                <small>James Jallah</small><br>
-                                
-                                <button>2</button>
-                                <button>1</button>
-                                <button>3</button>
-                                <button>2</button>
+                                <button style="width: 80px;">2</button>
+                                <button style="width: 80px;">1</button>
+                                <button style="width: 80px;">3</button>
+                                <button style="width: 80px;">2</button>
                             </div>
                             
                         </div>
                         
                         <div class="content-item">
-                            <div class="image"></div>
-                            <p class="price1">500.00</p>
-                            <div class="class-of-content">
-                                <p>3 bedroom HOUSE
+                            <div class="list-image"></div>
+                            <p class="list-price1"><small><sup>$</sup>500.00/month</small></p>
+                            <div class="class-of-content-list">
+                                <p>3 bedroom HOUSE <br>
                                     <small>Sinkor, Monrovia, Liberia</small>
                                 </p>
                                 <small>James Jallah</small><br>
                                 
-                                <button>2</button>
-                                <button>1</button>
-                                <button>3</button>
-                                <button>2</button>
+                                <button style="width: 80px;">2</button>
+                                <button style="width: 80px;">1</button>
+                                <button style="width: 80px;">3</button>
+                                <button style="width: 80px;">2</button>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="content-item">
+                            <div class="list-image"></div>
+                            <p class="list-price1"><small><sup>$</sup>500.00/month</small></p>
+                            <div class="class-of-content-list">
+                                <p>3 bedroom HOUSE <br>
+                                    <small>Sinkor, Monrovia, Liberia</small>
+                                </p>
+                                <small>James Jallah</small><br>
+                                
+                                <button style="width: 80px;">2</button>
+                                <button style="width: 80px;">1</button>
+                                <button style="width: 80px;">3</button>
+                                <button style="width: 80px;">2</button>
                             </div>
                             
                         </div>
                 
                         <div class="content-item">
-                            <div class="image"></div>
-                            <p class="price1">500.00</p>
-                            <div class="class-of-content">
-                                <p>3 bedroom HOUSE
+                            <div class="list-image"></div>
+                            <p class="list-price1"><small><sup>$</sup>500.00/month</small></p>
+                            <div class="class-of-content-list">
+                                <p>3 bedroom HOUSE <br>
                                     <small>Sinkor, Monrovia, Liberia</small>
                                 </p>
                                 <small>James Jallah</small><br>
                                 
-                                <button>2</button>
-                                <button>1</button>
-                                <button>3</button>
-                                <button>2</button>
+                                <button style="width: 80px;">2</button>
+                                <button style="width: 80px;">1</button>
+                                <button style="width: 80px;">3</button>
+                                <button style="width: 80px;">2</button>
                             </div>
                             
                         </div>
                         
                         <div class="content-item">
-                            <div class="image"></div>
-                            <p class="price1">500.00</p>
-                            <div class="class-of-content">
-                                <p>3 bedroom HOUSE
+                            <div class="list-image"></div>
+                            <p class="list-price1"><small><sup>$</sup>500.00/month</small></p>
+                            <div class="class-of-content-list">
+                                <p>3 bedroom HOUSE <br>
                                     <small>Sinkor, Monrovia, Liberia</small>
                                 </p>
                                 <small>James Jallah</small><br>
                                 
-                                <button>2</button>
-                                <button>1</button>
-                                <button>3</button>
-                                <button>2</button>
+                                <button style="width: 80px;">2</button>
+                                <button style="width: 80px;">1</button>
+                                <button style="width: 80px;">3</button>
+                                <button style="width: 80px;">2</button>
                             </div>
                             
                         </div>
                         
                         <div class="content-item">
-                            <div class="image"></div>
-                            <p class="price1">500.00</p>
-                            <div class="class-of-content">
-                                <p>3 bedroom HOUSE
+                            <div class="list-image"></div>
+                            <p class="list-price1"><small><sup>$</sup>500.00/month</small></p>
+                            <div class="class-of-content-list">
+                                <p>3 bedroom HOUSE <br>
                                     <small>Sinkor, Monrovia, Liberia</small>
                                 </p>
                                 <small>James Jallah</small><br>
                                 
-                                <button>2</button>
-                                <button>1</button>
-                                <button>3</button>
-                                <button>2</button>
+                                <button style="width: 80px;">2</button>
+                                <button style="width: 80px;">1</button>
+                                <button style="width: 80px;">3</button>
+                                <button style="width: 80px;">2</button>
                             </div>
                             
                         </div>
@@ -222,11 +234,12 @@
                         <h4>Advertisments</h4>
                     </div>
                 </div><br>
-                <button class="grid-load-button">Load more</button>
+                <button class="list-load-button">Load more</button>
+
             </div>
             
         </div>
-        <nav class="property-nav-grid">
+        <nav class="property-nav-list">
 
             <div class="property-footer-conten1">
                 <h4>CONTACT US</h4>
